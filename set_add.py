@@ -5,3 +5,4 @@ set_a.add(5)
 
 print(set_a)
 
+""" expected output: {1, 2, 3, 4, 5} """
