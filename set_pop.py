@@ -12,4 +12,16 @@ print(set_a)
 while len(set_a) > 0:
     set_a.pop()
     print(set_a)
-    
+#Expected output
+'''  Initial:
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+set after popping an element.
+{2, 3, 4, 5, 6, 7, 8, 9}
+{3, 4, 5, 6, 7, 8, 9}
+{4, 5, 6, 7, 8, 9}
+{5, 6, 7, 8, 9}
+{6, 7, 8, 9}
+{7, 8, 9}
+{8, 9}
+{9}
+set()'''
