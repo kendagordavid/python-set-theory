@@ -10,3 +10,7 @@ set_draw = {4,5,6,7,8,9,10}
 print(set_draw.issubset(set_win))
 
 """Expected output: false"""
+
+print(set_lose.issubset(set_win))
+
+"""Expected output: true"""
